@@ -1,0 +1,54 @@
+.recommendation-container {
+  display: flex;
+}
+/* need to change the size of the container to just fit the screen, and add a scroll */
+.recommendation-list-container {
+  width: 700px;
+  height: 800px;
+}
+.list-group {
+  display: flex !important;
+  overflow-y: scroll !important;
+  max-height: 800px !important;
+}
+
+.list-group-item-image {
+  height: 200px;
+  min-width: 300px;
+}
+
+.list-group-item-text {
+  padding: 0 10px 0 10px;
+}
+
+.recommendation-map-container {
+  flex: 1;
+}
+
+.recommended-item {
+  color: rgb(187, 187, 187);
+}
+
+.recommendation-list-item {
+  display: flex;
+  padding: 20px;
+}
+.recommendation-filter-bar {
+  height: 60px;
+  text-align: center;
+}
+.filter-button {
+  border-radius: 30px;
+  background-color: white; /* Green */
+  border: solid;
+  border-color: rgb(187, 187, 187);
+  border-width: 1px;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 12px;
+  margin: 10px;
+}
+.filter-button:hover {
+  border-color: rgb(27, 26, 26);
+}
