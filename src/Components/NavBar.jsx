@@ -10,6 +10,7 @@ const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Portland Recs</Nav.Link>
+            <Nav.Link href="">Jiu Jitsu Recs</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
